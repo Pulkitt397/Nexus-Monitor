@@ -7,7 +7,37 @@ Nexus Monitor is a real-time PC dashboard and AI assistant that turns your Andro
 - Added two-way clipboard sync between PC and Android.
 - Added file sharing from phone to a dedicated folder on Windows.
 - New elevated launcher that starts LibreHardwareMonitor minimized and runs the Nexus server in the background.
+_____________________________________________________________________________________________________________________________
 
+![Screenshot_20251210_194413](https://github.com/user-attachments/assets/bc034bda-5f7f-41b5-b913-4be18bde2e1d)
+
+![Screenshot_20251210_194427](https://github.com/user-attachments/assets/931492fb-223a-4390-a6b7-ce0389d84f70)
+
+![Screenshot_20251210_194422](https://github.com/user-attachments/assets/81fbd18d-dbba-407d-9cb4-9423f42d2421)
+
+![Screenshot_20251210_194444](https://github.com/user-attachments/assets/5e2edea0-f197-486c-984d-60b6c041f92e)
+
+![Screenshot_20251210_194452](https://github.com/user-attachments/assets/c112e1f0-54e5-4dc4-835f-622c4f8804c9)
+
+![Screenshot_20251210_194459](https://github.com/user-attachments/assets/2ab71faa-a4e0-4089-a5bf-401d70efb28d)
+
+https://github.com/user-attachments/assets/f0ec8b10-9438-47be-84f0-52be2be1517c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_____________________________________________________________________________________________________________________________
 ## 1. Android App Setup
 
 - Transfer `apk/Nexus-Monitor-v3.0.apk` to your phone.
