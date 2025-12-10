@@ -21,7 +21,7 @@ ________________________________________________________________________________
 
 ![Screenshot_20251210_194459](https://github.com/user-attachments/assets/2ab71faa-a4e0-4089-a5bf-401d70efb28d)
 
-https://github.com/user-attachments/assets/f0ec8b10-9438-47be-84f0-52be2be1517c
+![ezgif-82c28b73b4d19322](https://github.com/user-attachments/assets/732899fc-de32-4af3-9548-dfbcbad1e728)
 
 
 
