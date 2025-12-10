@@ -3,7 +3,7 @@
 Nexus Monitor is a real-time PC dashboard and AI assistant that turns your Android phone into a secondary status display.
 
 ## 1. Android App Setup
-- Transfer `apk/Nexus-v1.0.apk` to your phone.
+- Transfer `apk/Nexus-v2.0.apk` to your phone.
 - Install the APK.
 - Connect your phone to the same WiFi as your PC.
 
