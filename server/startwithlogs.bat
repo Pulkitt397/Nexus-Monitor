@@ -1,10 +1,11 @@
 @echo off
 cd /d "%~dp0"
 
-:: 1. Start LibreHardwareMonitor
+:: Start LibreHardwareMonitor normally
 cd LibreHardwareMonitor
 start "" "LibreHardwareMonitor.exe"
 cd ..
 
-:: 2. Start Python Server
+:: Run server.py directly with logs (only if server.py is present here)
 python server.py
+pause
