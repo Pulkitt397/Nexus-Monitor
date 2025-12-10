@@ -1,25 +1,44 @@
-# Nexus Monitor v2.0
+# Nexus Monitor v3.0
 
 Nexus Monitor is a real-time PC dashboard and AI assistant that turns your Android phone into a secondary status display.
 
+## What's new (v3.0.0)
+
+- Added two-way clipboard sync between PC and Android.
+- Added file sharing from phone to a dedicated folder on Windows.
+- New elevated launcher that starts LibreHardwareMonitor minimized and runs the Nexus server in the background.
+
 ## 1. Android App Setup
-- Transfer `apk/Nexus-v2.0.apk` to your phone.
+
+- Transfer `apk/Nexus-Monitor-v3.0.apk` to your phone.
 - Install the APK.
 - Connect your phone to the same WiFi as your PC.
 
 ## 2. PC Server Setup (One-Click)
+
 1. Open the `server` folder on your PC.
-2. **First Time Only:** Double-click     install_dependencies.bat to automatically install required Python libraries.
+2. **First Time Only:** Double-click `install_dependencies.bat` to automatically install required Python libraries.
 3. **Start Server:** Double-click `start.vbs`.
    - This runs silently in the background.
-   - *Note: Press YES if asked for Administrator permission (Required for Hardware Monitor & Gaming Mode).*
+   - *Note: Press YES if asked for Administrator permission (required for Hardware Monitor, clipboard sync, file sharing, and Gaming Mode).*
+4. Ensure `LibreHardwareMonitor` folder is present inside `server` (it is started automatically by the scripts).
 
-*(Optional: Use `startwithlogs.bat` if you need to see debug errors window).*
+*(Optional: Use `startwithlogs.bat` if you need to see a debug/log window instead of running fully silent.)*
 
 ## 3. How to Stop
-- Double-click `stop_server.bat` to cleanly close the Server and Hardware Monitor.
+
+- Double-click `stop_server.bat` to cleanly close the Nexus Server and LibreHardwareMonitor.
 
 ## 4. Troubleshooting
-- **Firewall:** If the app stays on "0", open Windows Firewall settings and allow `python.exe` through both Private and Public networks.
-- **Network:** Ensure your Phone and PC are connected to the exact same WiFi router/band.
-"# Nexus-Monitor-" 
+
+- **Firewall:** If the app stays on "0" or cannot connect, open Windows Firewall settings and allow `Nexus-Server.exe` (or `python.exe` if running from source) through both Private and Public networks.
+- **Network:** Ensure your phone and PC are connected to the exact same WiFi router/band (e.g., both on 2.4 GHz or both on 5 GHz).
+- **Admin prompt missing:** If hardware stats or clipboard/file features don’t work, make sure you started the server via `start.vbs` and accepted the Administrator UAC prompt.
+
+## 5. Changelog
+
+- v3.0.0
+  - Added clipboard sync and file sharing.
+  - New admin launcher (`start.vbs` + `start_silent.bat`) that auto-starts LibreHardwareMonitor and the server.
+  - Improved hardware stats smoothing and updated helper scripts.
+
